@@ -8,10 +8,10 @@ body{
 }
 
 nav, section{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
-.carousel-item button{
+.carousel-item button,.card button{
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
@@ -23,4 +23,19 @@ nav, section{
 }
 .carousel-item .price{
     color: #FF136F;
+}
+.card{
+    border: 0;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.catagories{
+    border-radius: 10px;
+}
+.backpack-card{
+    height: 40em;
+    justify-content: space-between;
+}
+.backpack-button{
+    margin: 15px;
 }
