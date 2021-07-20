@@ -1,0 +1,26 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav, section{
+    margin-bottom: 80px;
+}
+
+.carousel-item button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.carousel-item .row{
+    background: #FEEAE9;
+}
+.carousel-item .price{
+    color: #FF136F;
+}
