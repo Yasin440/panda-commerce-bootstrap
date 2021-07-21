@@ -11,14 +11,14 @@ nav, section{
     margin-bottom: 100px;
 }
 
-.carousel-item button,.card button,.contact button{
+.carousel-item button,.card button,.subscribe button{
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
 }
-.carousel-item .row,.contact{
+.carousel-item .row,.subscribe{
     background: #FEEAE9;
 }
 .carousel-item .price{

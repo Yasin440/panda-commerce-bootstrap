@@ -13,7 +13,7 @@
 </head>
 <body>
     <main>
-        <header class="sticky-top">
+        <header class="sticky-top d-block" id="home">
 
             <!--------------
                navbar 
@@ -30,16 +30,16 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Shoes</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
                       </li>
                     </ul>
                   </div>
@@ -139,7 +139,7 @@
            shoes product 
         ------------------>
 
-        <section class="container">
+        <section class="container" id="shoes" id="backpack">
           <h1>Shoes</h1>
             <div class="row g-4">
               <div class="col-lg-4 col-md-6 col-12">
@@ -185,7 +185,7 @@
           Backpack section 
         --------------------->
 
-        <section class="container">
+        <section class="container" id="backpack">
           <h1>Backpack</h1>
             <div class="row g-4">
               <div class="col-lg-4 col-md-6 col-12">
@@ -243,11 +243,11 @@
         </section>
 
         <!---------------------
-           contact section
+           subscribe section
         --------------------->
 
-        <section class="container">
-          <div class="contact rounded-3 py-5 d-flex justify-content-center align-items-center">
+        <section class="container" id="subscribe">
+          <div class="subscribe rounded-3 py-5 d-flex justify-content-center align-items-center">
             <div>
               <h2>LET'S STAY IN TOUCH</h2>
               <p class="text-muted">Get updates on sales, specials and more</p>
